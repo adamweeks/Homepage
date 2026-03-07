@@ -405,6 +405,7 @@ body {
 
 [data-lang="javascript"] { background: rgba(247, 223, 30, 0.12); color: #f7df1e; }
 [data-lang="typescript"] { background: rgba(49, 120, 198, 0.15); color: #5b9bd5; }
+[data-lang="python"]     { background: rgba(55, 118, 171, 0.15); color: #4b8bbe; }
 [data-lang="react"]      { background: rgba(97, 218, 251, 0.12); color: #61dafb; }
 
 .project-title {
