@@ -441,6 +441,81 @@ body {
   color: #818cf8;
 }
 
+/* ── GitHub Activity ── */
+.activity-wrap {
+  margin-top: 3rem;
+  text-align: left;
+}
+
+.activity-heading {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+  letter-spacing: 0.02em;
+}
+
+.activity-chart {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  overflow: hidden;
+}
+
+.activity-chart img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: var(--radius-sm);
+}
+
+/* ── Skills Section ── */
+.skills-section {
+  padding: 0 2rem 6rem;
+  position: relative;
+  z-index: 1;
+}
+
+.skills-inner {
+  max-width: 1100px;
+}
+
+.skills-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  justify-content: center;
+}
+
+.skill-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.45rem 1rem;
+  border-radius: 100px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  border: 1px solid transparent;
+  transition: filter 0.2s ease, transform 0.2s ease;
+  cursor: default;
+  user-select: none;
+}
+
+.skill-badge:hover {
+  filter: brightness(1.15);
+  transform: translateY(-1px);
+}
+
+[data-skill="typescript"] { background: rgba(49, 120, 198, 0.15); color: #5b9bd5; border-color: rgba(49, 120, 198, 0.25); }
+[data-skill="javascript"] { background: rgba(247, 223, 30, 0.12); color: #f7df1e; border-color: rgba(247, 223, 30, 0.2); }
+[data-skill="python"]     { background: rgba(55, 118, 171, 0.15); color: #4b8bbe; border-color: rgba(55, 118, 171, 0.25); }
+[data-skill="react"]      { background: rgba(97, 218, 251, 0.12); color: #61dafb; border-color: rgba(97, 218, 251, 0.2); }
+[data-skill="node"]       { background: rgba(104, 160, 99, 0.15); color: #68a063; border-color: rgba(104, 160, 99, 0.25); }
+[data-skill="webex"]      { background: rgba(0, 191, 165, 0.12); color: #00bfa5; border-color: rgba(0, 191, 165, 0.2); }
+[data-skill="github"]     { background: rgba(255, 255, 255, 0.06); color: #d0d7de; border-color: rgba(255, 255, 255, 0.12); }
+[data-skill="html"]       { background: rgba(227, 76, 38, 0.12); color: #e34c26; border-color: rgba(227, 76, 38, 0.2); }
+[data-skill="netlify"]    { background: rgba(0, 173, 159, 0.12); color: #00ad9f; border-color: rgba(0, 173, 159, 0.2); }
+
 /* ── Connect Section ── */
 .connect-section {
   padding: 6rem 2rem;
